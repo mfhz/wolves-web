@@ -25,5 +25,5 @@ export default {
 </script>
 
 <style lang="scss">
-  @import '../styles/Grids/BannerPrincipal.scss'
+  @import '../styles/BannerPrincipal.scss'
 </style>
