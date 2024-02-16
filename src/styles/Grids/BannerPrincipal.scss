@@ -5,8 +5,9 @@
 
   &::before {
     content: "";
-    background-image: url('../assets/WhatsApp\ Image\ 2024-02-08\ at\ 23.39.03.jpeg');
+    background-image: url('../assets/WhatsApp\ Image\ 2024-02-08\ at\ 23.47.53.jpeg');
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
@@ -14,8 +15,31 @@
     right: 0;
     bottom: 0;
     z-index: -1;
-    opacity: 0.3;
+    opacity: 0.4;
   }
 
   background-color: rgba(0, 0, 0, 0.5);
+
+  .title-banner {
+    font-family: 'lulo-clean-w01-one-bold';
+    width: 494px;
+    line-height: 1em;
+    font-size: 94px;
+    letter-spacing: -0.1em;
+    position: relative;
+    top: 187px;
+    left: 146px;  
+  }
+
+  .subtitle-banner {
+    width: 635px;
+    font-family: 'DINNextW01-Light';
+    line-height: 1em;
+    font-size: 43px;
+    position: relative;
+    letter-spacing: 0.08em;
+    margin: 203px 0px 0px calc((100% - 980px) * 0);
+    left: 146px;
+    color: #5069c1;
+  }
 }

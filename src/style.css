@@ -13,6 +13,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: 'lulo-clean-w01-one';
+  src: url('./assets/lulo-clean/Lulo\ Clean\ One.otf') format('truetype');
+}
+@font-face {
+  font-family: 'lulo-clean-w01-one-bold';
+  src: url('./assets/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf') format('truetype');
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -54,7 +63,7 @@ button:focus-visible {
   padding: 0;
   width: 100%;
   margin: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
   border: 0;
 }
 

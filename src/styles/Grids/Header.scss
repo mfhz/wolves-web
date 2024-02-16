@@ -1,0 +1,41 @@
+:root {
+  --red: #5069c1;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 6%;
+  position: absolute;
+
+  .logo {
+    width: 7rem;
+
+    .logo-image {
+      width: inherit;
+    }
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    a.router-link-active {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    a {
+      font-size: 1.2rem;
+      margin-left: 4rem;
+      flex-basis: fit-content;
+      color: #fff;
+    }
+
+    a:hover {
+      color: var(--red);
+    }
+  }    
+}
+
+
