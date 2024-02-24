@@ -1,0 +1,48 @@
+.team-container {
+  width: 100%;
+  
+
+  .team-container__information {
+    padding: 7rem 0;
+    padding-left: 7rem;
+
+    .team-container__information--title {
+      line-height: 1.1em;
+      font-size: 38px;
+      letter-spacing: -0.1em;
+      font-family: "lulo-clean-w01-one-bold";
+    }
+  
+    .team-container__information--separator {  
+      margin-top: 20px;
+      margin-bottom: 30px;
+      border: 4px solid #e7e7e7;
+      width: 60%;
+      border-color: #a69494;
+    }
+  }
+
+  .team-information {
+    height: calc(100vh - 12.5rem);
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+    // height: 45rem;
+
+    &::before {
+      content: "";
+      background-image: url('../assets/WhatsApp\ Image\ 2024-02-20\ at\ 23.43.42.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+      opacity: 0.4;
+    }
+  }
+}
